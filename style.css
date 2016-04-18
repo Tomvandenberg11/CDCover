@@ -1,0 +1,90 @@
+body {
+	background-color: whitesmoke;
+	font-family: roboto;
+}
+
+header {
+	height: 10em;
+	background-color: darkolivegreen;
+	margin-top: -3.4em;
+	margin-left: -.5em;
+	margin-right: -.5em;
+}
+
+h1 {
+	font-family: roboto;
+	text-align: center;
+	padding-top: 1em;
+	font-size: 5em;
+	color: darkslategray;
+}
+
+.Album {
+	margin-top: 5%;
+	width: 17.4em;
+	float: left;
+	margin: 2%;
+}
+
+p {
+	background-color: darkslategray;
+}
+
+.tekst {
+	margin-top: -5.9em;
+	text-align: center;
+	height: 85px;
+	border: none;
+	background: darkslategrey;
+	color: #f2f2f2;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	display: none;
+	opacity: 0.7;
+	transition-delay: .5s;
+}
+
+@keyframes bounce {
+	0%,
+	20%,
+	60%,
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-40px);
+		transform: translateY(-40px);
+	}
+	80% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+}
+
+img:hover + div {
+	display: block;
+	animation: bounce 1s;
+	
+}
+
+.Album img {
+	width: 100%;
+}
+
+#validatie {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#validatie img {
+    height: em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+	
+}
